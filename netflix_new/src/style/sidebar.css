@@ -1,0 +1,21 @@
+
+.sidebar-re {
+    min-width: 15rem;
+    background-color: #282c34;
+    color: white;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+.nav-item {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
