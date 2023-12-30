@@ -1,0 +1,11 @@
+.userInfoMain{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.userInfo{
+    padding: 1rem;
+    line-height: 1cm;
+    margin-top: 1cm;
+}

@@ -1,19 +1,16 @@
-.userManageMain{
-    padding: 1rem;
+.subscriptionManageMain{
+    padding: 0.5rem;
     width: 100%;
 }
-.userManageNumber{
+.subscriptionManageNumber{
     display: flex;
     align-items: center;
     margin-top: 2em;
     justify-content: space-around;
     padding: 2em;
 }
-.userManageList{
-    display: flex;
-    align-items: center;
+.subscriptionManageChart{
     margin-top: 2em;
-    justify-content: space-around;
     padding: 2em;
 }
 .number{
@@ -23,10 +20,4 @@
     text-align: center;
     margin: 2cm;
     color: white;
-}
-.list{
-    padding: 1rem;
-    width: 5cm;
-    text-align: center;
-    margin-top: 1rem;
 }

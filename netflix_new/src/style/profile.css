@@ -1,0 +1,10 @@
+.profileMain{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    line-height: 1cm;
+    margin-top: 1cm;
+}
