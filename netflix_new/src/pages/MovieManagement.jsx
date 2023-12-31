@@ -1,6 +1,7 @@
 import React from 'react';
 import '@/style/user-manage.css';
 import '@/style/global.css';
+import movie from '@/movie.png';
 import { Select, Space, Avatar, List, Row, Col } from 'antd';
 import { NavLink } from "react-router-dom";
 
@@ -54,7 +55,7 @@ const MovieManagement = () => {
         renderItem={(item, index) => (
           <List.Item>
             <List.Item.Meta
-              avatar={<Avatar src={`https://xsgames.co/randomusers/avatar.php?g=pixel&key=${index}`} />}
+              avatar={<Avatar src={movie} alt='Movie' />}
               title={<NavLink to={`/movie-information`}>Movie name</NavLink>}
             />
           </List.Item>

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Avatar, List } from 'antd';
+import user from '@/user.jpg';
+import movie from '@/movie.png';
 import '@/style/profile.css';
 import { NavLink } from "react-router-dom";
 
@@ -18,10 +20,11 @@ const Profile = () => {
     <div className='profileMain'>
       <div>
         <div className='info'>
+          {<Avatar src={user} alt='User' />}
           <div>Name:</div>
-          <div>Address:</div>
           <div>Date of Birth:</div>
-          <div>Nationality:</div>
+          <div>Language:</div>
+          <div>Preferences:</div>
           <div>Watch list:</div>
         </div>
 
@@ -32,7 +35,7 @@ const Profile = () => {
             renderItem={(item, index) => (
               <List.Item>
                 <List.Item.Meta
-                  avatar={<Avatar src={`https://xsgames.co/randomusers/avatar.php?g=pixel&key=${index}`} />}
+                  avatar={<Avatar src={movie} alt='Movie' />}
                   title={<NavLink to={`/movie-information`}>Movie name</NavLink>}
                   description={<NavLink to={`/episode-information`}>Episode name</NavLink>}
                 />

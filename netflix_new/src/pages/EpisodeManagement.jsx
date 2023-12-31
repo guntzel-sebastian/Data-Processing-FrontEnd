@@ -1,6 +1,7 @@
 import React from 'react';
 import '@/style/episode-management.css';
 import '@/style/global.css';
+import episode from '@/episode.png';
 import { Select, Space, Avatar, List, Row, Col } from 'antd';
 import { NavLink } from "react-router-dom";
 
@@ -54,7 +55,7 @@ const EpisodeManagement = () => {
         renderItem={(item, index) => (
           <List.Item>
             <List.Item.Meta
-              avatar={<Avatar src={`https://xsgames.co/randomusers/avatar.php?g=pixel&key=${index}`} />}
+              avatar={<Avatar src={episode} alt='Episode' />}
               title={<NavLink to={`/episode-information`}>Episode name</NavLink>}
             />
           </List.Item>

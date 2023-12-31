@@ -1,4 +1,5 @@
 import React from 'react';
+import user from '@/user.jpg';
 import '@/style/movie-management.css';
 import '@/style/global.css';
 import { Select, Space, Avatar, List, Row, Col } from 'antd';
@@ -133,7 +134,7 @@ const UserManagement = () => {
                 renderItem={(item, index) => (
                   <List.Item>
                     <List.Item.Meta
-                      avatar={<Avatar src={`https://xsgames.co/randomusers/avatar.php?g=pixel&key=${index}`} />}
+                      avatar={<Avatar src={user} alt='User' />}
                       title={<NavLink to={`/user-information`}>User name</NavLink>}
                       description="email"
                     />
@@ -183,7 +184,7 @@ const UserManagement = () => {
                 renderItem={(item, index) => (
                   <List.Item>
                     <List.Item.Meta
-                      avatar={<Avatar src={`https://xsgames.co/randomusers/avatar.php?g=pixel&key=${index}`} />}
+                      avatar={<Avatar src={user} alt='User' />}
                       title={<NavLink to={`/user-information`}>User name</NavLink>}
                       description="subscription type"
                     />

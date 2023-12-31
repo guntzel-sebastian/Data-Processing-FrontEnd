@@ -3,9 +3,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-content: center;
 }
 .userInfo{
-    padding: 1rem;
+    padding: 3rem;
     line-height: 1cm;
-    margin-top: 1cm;
+    margin-top: 3cm;
 }
