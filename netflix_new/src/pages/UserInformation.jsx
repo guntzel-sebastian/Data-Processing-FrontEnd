@@ -36,6 +36,7 @@ const UserInformation = () => {
               <p>Address:</p>
               <p>Subscription type:</p>
               <p>Experied date:</p>
+              <p>Invited by:</p>
               <p>The list of profile:</p>
               <div className='list'>
                 <List
